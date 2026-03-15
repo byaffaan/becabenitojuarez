@@ -1,0 +1,24 @@
+baseURL = "https://becabenitojuarez.pages.dev/"
+languageCode = "es-mx"
+title = "Estatus Beca Benito Juárez"
+theme = "hugo-mana-theme"
+
+[params]
+  author = "Tu Nombre"
+  description = "Consulta el estatus de tu Beca Benito Juárez. Verifica si tu beca está activa, pendiente o suspendida de forma rápida y fácil."
+  env = "production"
+
+[menu]
+  [[menu.main]]
+    identifier = "inicio"
+    name = "Inicio"
+    url = "/"
+    weight = 5
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
