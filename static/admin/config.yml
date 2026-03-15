@@ -1,8 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: byaffaan/becabenitojuarez
   branch: main
-  identity_url: https://wondrous-pastelito-e0fe1b.netlify.app/.netlify/identity
-  gateway_url: https://wondrous-pastelito-e0fe1b.netlify.app/.netlify/git
 
 media_folder: static/images
 public_folder: /images
